@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # Vendos API Key-in tënd këtu
-client = Groq(api_key=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")
+client = Groq(api_key="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")
 MODEL_AI = "llama-3.3-70b-versatile"
 
 # 2. STRUKTURA E TË DHËNAVE (Sipas Onboarding në Foto 437-439)
