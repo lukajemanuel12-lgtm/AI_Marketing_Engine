@@ -42,7 +42,7 @@ async def chat_endpoint(request: ChatRequest):
         """
 
         completion = client.chat.completions.create(
-            model="mixtral-8x7b-32768", # Modeli më i shpejtë dhe i balancuar
+            model="llama-3.3-70b-versatile", # Modeli më i shpejtë dhe i balancuar
             messages=[
                 {"role": "system", "content": system_instruction},
                 {"role": "user", "content": user_content}
